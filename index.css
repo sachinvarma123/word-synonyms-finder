@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('https://www.imageshine.in/uploads/gallery/Nature-Blur-Background-HD-Images-free-Download.jpg');
+    background-size: auto;
+    background-attachment: fixed;
+   
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/929/1017/70/city-lights-bokeh-lights-blurred-blurry-wallpaper-preview.jpg');
+    box-shadow: rgba(85, 223, 5, 0.35) 0px 5px 15px;
+}
+
+.container > h1 {
+    font-size: 35px;
+}
+
+.container > input {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.container > button {
+    margin-top: 10px;
+    padding: 5px 85px;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(221, 214, 214, 0.24) 0px 3px 8px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/663/67/745/violet-blurry-background-wallpaper-preview.jpg');
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container > button:hover {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTalYADbZEr2nxnpsDLNJoOEK4bq-c2BoPZ4g&s');
+}
+
+.result {
+    font-style: italic;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 400px;
+}
